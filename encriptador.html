@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="encriptador.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <title>Togencriptador - Alura Challenge</title>
+    </head>
+    <header>
+        <img src="Imágenes/logo_togencriptador.png">
+    </header>
+    <body>
+        <div class="ingresoTexto">
+            <textarea name="" id="textoIngresado" cols=44 rows=22 placeholder="Ingrese su texto aquí " autofocus spellcheck="false"></textarea>
+        </div>
+        <div class="mensaje_advertencia">
+            <img src="Imágenes/warning_115257.png" alt="Ícono de advertencia">
+            <label>Solo minúsculas y sin tildes</label>
+        </div>
+        
+        <div class="panelBotones">
+            <input  class="botones" id="encriptar" type="button" value="Encriptar" onclick="encriptar()">
+            <input  class="botones" id="desencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
+            <input  class="botones" id="limpiar" type="button" value="Limpiar" onclick="limpiar()">
+        </div>
+        <div class="retornaTexto">
+            <div class="imagen">
+                <img id="imagenBuscador" src="Imágenes/imagen_mensaje_no_encontrado.png">
+            </div>
+            <div id="advertencia">
+                <p>No se detectó ningún texto</p>
+                <p>Escribe algo para encriptarlo... ¡o descifrarlo!</p>
+            </div>
+            <button class="botones" id="copiar" onclick="copiar()">Copiar</button>
+            
+            <textarea name="" id="textoRetornado" cols=18 rows=13 readonly></textarea>
+        </div>
+    </body>
+    
+</html>
+
+
+

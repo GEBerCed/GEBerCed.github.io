@@ -1,0 +1,183 @@
+html
+    {background-color: #fffb99;
+    }
+
+header img
+    {width: 5vw;
+    position: absolute;
+    left: 1vw;
+    top:1vh;
+    padding: 2vh 1vh;
+    background-color: rgba(255,0,0,0.2);
+    border-radius: 3vw;
+    }
+/***************************************************************************************************************/
+/**********************************      Texto - Input     *****************************************************/
+/***************************************************************************************************************/
+
+/*********************************      Área de texto    *******************************************************/
+.ingresoTexto
+    {background-color: rgba(0,0,0,0.8);
+    width: 60vw;
+    height: 73vh;
+    position: absolute;
+    top: 14vh;
+    left: 6vw;
+    }
+/*Formato del textarea del input*/
+.ingresoTexto textarea
+    {background-color: powderblue;
+    resize: none;/*Fijamos tamaño*/
+    border-radius: 2vw;
+    border: none;/*Retiramos borde*/
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 0.8vw;
+    font-family: 'Press Start 2P', cursive;
+    padding: 2vh 1vw;
+    font-size: 1vw;
+    line-height: 3vh;
+    text-transform: lowercase; /*línea para evitar el efecto visual */
+    }
+
+/*Formato de fuente de consejo*/
+.ingresoTexto textarea::placeholder
+    {font-size: 1.5vw; 
+    color:blue;
+    text-transform:none;
+    }
+
+.ingresoTexto textarea:focus
+    {outline: none; /*Retiramos el borde exterior*/
+    }
+
+/*********************************      Botones    *******************************************************/
+.panelBotones
+    {width: 60vw;
+    height:10vh;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 6vw;
+    top: 87vh;
+    }
+/*Formato botones*/
+.botones
+    {width: 15vw;
+    height: 6vh;
+    margin-top: 2vh;
+    margin-left: 1.2vw;
+    position: relative;
+    left: 5vw;
+    border-radius: 1.2vw;
+    border: none;
+    font-weight: bold;
+    transition: 1s;
+    }
+
+.botones:hover
+    {cursor: pointer;
+    }
+
+.panelBotones :first-child
+    {background-color: #4bb4f2;
+    }
+
+.panelBotones :nth-child(2)
+    {background-color: #f82f4d;
+    }
+
+.panelBotones :last-child, #copiar
+    {border-width: 2pt;
+    border-style: solid;
+    border-color: gray;
+    }
+
+.botones:disabled
+    {opacity: 60%;
+    }
+
+.mensaje_advertencia
+    {position: absolute;
+    top:10vh;
+    left: 50.8vw;
+    font-size: 2.5vh;
+    font-weight: bold;
+    }
+
+.mensaje_advertencia img
+    {width: 2vh;
+    }
+/***************************************************************************************************************/
+/**********************************      Texto - Output     ****************************************************/
+/***************************************************************************************************************/
+.retornaTexto
+    {background-color: rgba(255,255,255,0.3);
+    width: 25vw;
+    height: 94vh;
+    position: absolute;
+    top: 3vh;
+    left: 73.5vw;
+    border-radius: 2vw;
+    }
+
+.imagen
+    {width: 20vw;
+    top: 3vh;
+    left: 73.5vw;
+    margin-top: 3vh;
+    margin-left: 2.5vw;
+    }
+
+.imagen img
+    {width: 18vw;
+    margin: 0vh 1vw;
+    }
+
+#advertencia 
+    {font-family: 'Press Start 2P', cursive;
+    color:grey;
+    margin: 6vh 2vw;
+    font-size: 1vw;
+    line-height: 3vh;
+    text-align: center;
+    }
+
+#advertencia :first-child
+    {color:blueviolet;
+    font-size: 1.5vw;
+    margin-bottom: 2vh;
+    line-height: 3.5vh;
+    }
+
+.retornaTexto textarea
+    {background-color: powderblue;
+    display: inline-block;
+    margin-top: 3.5vh;
+    margin-left: 1.6vw;
+    padding: 0 1vh;
+    resize: none;
+    border: none;
+    border-radius: 2vw;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1vw;
+    line-height: 3vh;
+    padding: 2vh 1vw;
+    }
+
+.retornaTexto textarea::placeholder
+    {font-size: 1.5vw; 
+    color:orangered;
+    text-align: center;
+    }
+
+.retornaTexto textarea:focus
+    {outline: none; /*Retiramos el borde exterior*/
+    }
+
+#copiar
+    {position: absolute;
+    left: 3.5vw;
+    top: 80vh;
+    }
