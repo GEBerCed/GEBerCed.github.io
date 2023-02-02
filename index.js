@@ -1,3 +1,3 @@
 window.addEventListener("load", (evento) =>{
-    FileReader("encriptador.html");
+    FileReader("encriptador.html","_self");
     });
