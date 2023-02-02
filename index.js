@@ -1,3 +1,3 @@
 window.addEventListener("load", (evento) =>{
-    open(encriptador.html);
+    open("encriptador.html");
     });
