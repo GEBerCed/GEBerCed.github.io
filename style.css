@@ -185,12 +185,12 @@ header img
     
     .mensaje_advertencia
         {top:10vh;
-        left: 50.8vw;
-        font-size: 3.5vw;
+        left: 58vw;
+        font-size: 3vw;
         }
     
     .mensaje_advertencia img
-        {width: 2vh;
+        {width: 2vw;
         }
 
     .ingresoTexto
