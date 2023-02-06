@@ -2,23 +2,26 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <script src="encriptador.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
         <title>Togencriptador - Alura Challenge</title>
     </head>
     <header>
         <img src="Imágenes/logo_togencriptador.png">
     </header>
     <body>
-        <div class="ingresoTexto">
-            <textarea name="" id="textoIngresado" cols=44 rows=22 placeholder="Ingrese su texto aquí " autofocus spellcheck="false"></textarea>
-        </div>
         <div class="mensaje_advertencia">
             <img src="Imágenes/warning_115257.png" alt="Ícono de advertencia">
             <label>Solo minúsculas y sin tildes</label>
         </div>
+        
+        <div class="ingresoTexto">
+            <textarea name="" id="textoIngresado" cols=44 rows=22 placeholder="Ingrese su texto aquí " autofocus spellcheck="false"></textarea>
+        </div>
+       
         
         <div class="panelBotones">
             <input  class="botones" id="encriptar" type="button" value="Encriptar" onclick="encriptar()">
@@ -40,6 +43,3 @@
     </body>
     
 </html>
-
-
-
