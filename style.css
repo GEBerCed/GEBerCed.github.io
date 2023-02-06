@@ -19,7 +19,7 @@ header img
     {position: absolute;
     top:10vh;
     left: 50.8vw;
-    font-size: 2.5vh;
+    font-size: 1.2vw;
     font-weight: bold;
     }
 
@@ -177,7 +177,7 @@ header img
     }
 
 /********************   Visivilidad para celulares  ********************/
-@media screen  and (max-width: 450px)
+@media screen  and (max-width: 600px)
     {header img
         {width: 12vw;
         border-radius: 8vw;
